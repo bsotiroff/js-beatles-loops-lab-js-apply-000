@@ -28,12 +28,16 @@ const johnLennonFacts = (anArr) => {
 }
 
 const iLoveTheBeatles = (num) => {
-  let hoowMuchILoveTheBeatlesArr = [];
-  
-  do {
+  let howMuchILoveTheBeatlesArr = [];
+  if(num >= 15){
+    howMuchILoveTheBeatlesArr.push('I love the Beatles!');
+  } else {
+      do {
     emptyArr.push('I love the Beatles!')
     num++;
   } while (num < 15)
+  }
+
   
   return howMuchILoveTheBeatlesArr;
 }
