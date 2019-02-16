@@ -28,11 +28,13 @@ const johnLennonFacts = (anArr) => {
 }
 
 const iLoveTheBeatles = (num) => {
-  let emptyArr = [];
+  let hoowMuchILoveTheBeatlesArr = [];
   
   do {
     emptyArr.push('I love the Beatles!')
     num++;
   } while (num < 15)
+  
+  return howMuchILoveTheBeatlesArr;
 }
 
