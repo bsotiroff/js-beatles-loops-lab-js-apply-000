@@ -6,7 +6,30 @@ const theBeatlesPlay = (musicianArr, instrumentArr) => {
     let currentElem = musicianArr[i]
     let instrumentElem = instrumentArr[i];
     
-    outputArr.push(`${currentElem} plays )
-    
+    outputArr.push(`${currentElem} plays ${instrumentElem}`);
   }
+  
+  return outputArr;
 }
+
+const johnLennonFacts = (anArr) => {
+  let counter = 0;
+  let outputArr = [];
+  while(counter < anArr.length){
+    let currentElem = anArr[counter];
+    
+    let newElem = currentElem + '!!!';
+    
+    outputArr.push(newElem);
+    counter++;
+  }
+  
+  return outputArr;
+}
+
+const iLoveTheBeatles = (num) => {
+  let emptyArr = [];
+  
+  
+}
+
